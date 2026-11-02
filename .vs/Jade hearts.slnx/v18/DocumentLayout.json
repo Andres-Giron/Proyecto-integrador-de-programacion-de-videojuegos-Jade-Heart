@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\andres\\Desktop\\Jade hearts\\unity\\Jade hearts\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\andres\\desktop\\jade hearts\\unity\\jade hearts\\assets\\scripts\\enemy controle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy controle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\andres\\desktop\\jade hearts\\unity\\jade hearts\\assets\\scripts\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\doorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\andres\\desktop\\jade hearts\\unity\\jade hearts\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andres\\Desktop\\Jade hearts\\unity\\Jade hearts\\Assets\\Scripts\\Playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\andres\\desktop\\jade hearts\\unity\\jade hearts\\assets\\scripts\\camaracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +25,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\andres\\desktop\\jade hearts\\unity\\jade hearts\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andres\\Desktop\\Jade hearts\\unity\\Jade hearts\\Library\\PackageCache\\com.unity.learn.iet-framework@96330db47073\\Editor\\Core\\TutorialModalWindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.learn.iet-framework@96330db47073\\Editor\\Core\\TutorialModalWindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,45 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Playercontroller.cs",
-              "DocumentMoniker": "C:\\Users\\andres\\Desktop\\Jade hearts\\unity\\Jade hearts\\Assets\\Scripts\\Playercontroller.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Playercontroller.cs",
-              "ToolTip": "C:\\Users\\andres\\Desktop\\Jade hearts\\unity\\Jade hearts\\Assets\\Scripts\\Playercontroller.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Playercontroller.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAgwD0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-16T22:42:50.81Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Doorcontroller.cs",
-              "DocumentMoniker": "C:\\Users\\andres\\Desktop\\Jade hearts\\unity\\Jade hearts\\Assets\\Scripts\\Doorcontroller.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Doorcontroller.cs",
-              "ToolTip": "C:\\Users\\andres\\Desktop\\Jade hearts\\unity\\Jade hearts\\Assets\\Scripts\\Doorcontroller.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Doorcontroller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-28T20:02:25.757Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "PlayerSpawner.cs",
               "DocumentMoniker": "C:\\Users\\andres\\Desktop\\Jade hearts\\unity\\Jade hearts\\Assets\\Scripts\\PlayerSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerSpawner.cs",
               "ToolTip": "C:\\Users\\andres\\Desktop\\Jade hearts\\unity\\Jade hearts\\Assets\\Scripts\\PlayerSpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswDoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-28T20:31:46.333Z",
               "IsPinned": true,
@@ -76,20 +56,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CamaraController.cs",
-              "DocumentMoniker": "C:\\Users\\andres\\Desktop\\Jade hearts\\unity\\Jade hearts\\Assets\\Scripts\\CamaraController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CamaraController.cs",
-              "ToolTip": "C:\\Users\\andres\\Desktop\\Jade hearts\\unity\\Jade hearts\\Assets\\Scripts\\CamaraController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CamaraController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwCoAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Enemy controle.cs",
+              "DocumentMoniker": "C:\\Users\\andres\\Desktop\\Jade hearts\\unity\\Jade hearts\\Assets\\Scripts\\Enemy controle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy controle.cs",
+              "ToolTip": "C:\\Users\\andres\\Desktop\\Jade hearts\\unity\\Jade hearts\\Assets\\Scripts\\Enemy controle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy controle.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswCYAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-28T22:02:25.242Z",
+              "WhenOpened": "2026-11-02T16:30:05.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Doorcontroller.cs",
+              "DocumentMoniker": "C:\\Users\\andres\\Desktop\\Jade hearts\\unity\\Jade hearts\\Assets\\Scripts\\Doorcontroller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Doorcontroller.cs",
+              "ToolTip": "C:\\Users\\andres\\Desktop\\Jade hearts\\unity\\Jade hearts\\Assets\\Scripts\\Doorcontroller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Doorcontroller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T20:02:25.757Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "CamaraController.cs",
+              "DocumentMoniker": "C:\\Users\\andres\\Desktop\\Jade hearts\\unity\\Jade hearts\\Assets\\Scripts\\CamaraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CamaraController.cs",
+              "ToolTip": "C:\\Users\\andres\\Desktop\\Jade hearts\\unity\\Jade hearts\\Assets\\Scripts\\CamaraController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CamaraController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwB8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T22:02:25.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\andres\\Desktop\\Jade hearts\\unity\\Jade hearts\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -97,7 +102,31 @@
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-28T20:23:09.973Z",
+              "WhenOpened": "2026-10-28T20:23:09.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TutorialModalWindow.cs",
+              "DocumentMoniker": "C:\\Users\\andres\\Desktop\\Jade hearts\\unity\\Jade hearts\\Library\\PackageCache\\com.unity.learn.iet-framework@96330db47073\\Editor\\Core\\TutorialModalWindow.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.learn.iet-framework@96330db47073\\Editor\\Core\\TutorialModalWindow.cs",
+              "ToolTip": "C:\\Users\\andres\\Desktop\\Jade hearts\\unity\\Jade hearts\\Library\\PackageCache\\com.unity.learn.iet-framework@96330db47073\\Editor\\Core\\TutorialModalWindow.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.learn.iet-framework@96330db47073\\Editor\\Core\\TutorialModalWindow.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAiwNgAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T10:02:49.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Playercontroller.cs",
+              "DocumentMoniker": "C:\\Users\\andres\\Desktop\\Jade hearts\\unity\\Jade hearts\\Assets\\Scripts\\Playercontroller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Playercontroller.cs",
+              "ToolTip": "C:\\Users\\andres\\Desktop\\Jade hearts\\unity\\Jade hearts\\Assets\\Scripts\\Playercontroller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Playercontroller.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T14:33:19.247Z",
               "EditorCaption": ""
             }
           ]

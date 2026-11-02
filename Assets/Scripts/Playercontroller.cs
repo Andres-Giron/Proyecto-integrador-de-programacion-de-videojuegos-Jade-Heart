@@ -1,3 +1,5 @@
+using System;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class Playercontroller : MonoBehaviour
@@ -5,6 +7,9 @@ public class Playercontroller : MonoBehaviour
     //walk
     public float Speed = 5f;
     private float inputx;
+
+    //animations//
+    public Animator animations;
 
     //junp//
     public float PowerJump = 10f;
@@ -20,10 +25,12 @@ public class Playercontroller : MonoBehaviour
     [SerializeField] private float SlidingSpeed;
     public float PowerJumpX;
 
+    private bool Attack;
+
 
     private bool inFloor;
     private Rigidbody2D Rb;
-    private Animator animations;
+   
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -35,13 +42,7 @@ public class Playercontroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        inputx = Input.GetAxis("Horizontal");
-        float SpeedX = inputx*Time.deltaTime*Speed;
-
-        Vector3 Posicion = transform.position;
-
-        transform.position = new Vector3(SpeedX + Posicion.x, Posicion.y, Posicion.z);
-
+        move();
 
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, LengthRaycast, maskFloor);
         inFloor = hit.collider != null;
@@ -71,7 +72,42 @@ public class Playercontroller : MonoBehaviour
             Rb.AddForce(wallJumpForce, ForceMode2D.Impulse);
         }
 
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            attackon();
+        }
+
+        animations.SetBool("Attack", Attack);
+
     }
+
+    public void move()
+    {
+        inputx = Input.GetAxis("Horizontal");
+        float SpeedX = inputx * Time.deltaTime * Speed;
+
+
+        if (inputx != 0)
+        {
+            Vector3 localscale = transform.localScale;
+            localscale.x = Mathf.Sign(inputx) * MathF.Abs(localscale.x);
+            transform.localScale = localscale;
+        }
+        Vector3 Posicion = transform.position;
+
+        transform.position = new Vector3(SpeedX + Posicion.x, Posicion.y, Posicion.z);
+    }
+
+    public void attackon()
+    {
+        Attack = true;
+    }
+
+    public void attackoff()
+    {
+        Attack = false;
+    }
+
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;

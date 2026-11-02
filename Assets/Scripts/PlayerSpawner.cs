@@ -52,10 +52,20 @@ public class PlayerSpawner : MonoBehaviour
                 {
                     rb.linearVelocity = Vector2.zero; // Detiene cualquier movimiento previo
                 }
+                Vector3 spawnOffset;
 
-                float offsetX = door.spawnLeftSide ? -3f : 3f;
+                if (door.spawnUpward)
+                {
+                    spawnOffset = new Vector3(3f, 10f, 0f);
+                }
+                else
+                {
+                    float offsetX = door.spawnLeftSide ? -3f : 3f;
+                    spawnOffset = new Vector3 (offsetX, 0f, 0f);
+                }
 
-                transform.position = door.transform.position + new Vector3(offsetX, 0.2f, 0f);
+
+                transform.position = door.transform.position + spawnOffset;
                 break;
             }
         }

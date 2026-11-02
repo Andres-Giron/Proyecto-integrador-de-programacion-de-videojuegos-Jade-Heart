@@ -8,6 +8,7 @@ public class Doorcontroller : MonoBehaviour
     public string SceneLoad;
     public int DestinationDoorID;
     public bool spawnLeftSide = false;
+    public bool spawnUpward = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

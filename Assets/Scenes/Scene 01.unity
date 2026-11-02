@@ -269,7 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 377e67c25ce36414ba18e571010b4cf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CamaraController
-  objetive: {fileID: 1401490988}
+  objetive: {fileID: 3962896650980950143}
   CameraVelocity: 0.17
   Travel: {x: 0, y: 0, z: 0}
 --- !u!1 &619394800
@@ -4654,11 +4654,6 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
---- !u!4 &1401490988 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 974622490756174371, guid: 79a0a7c00a66c45439bd96b39bc9e62b, type: 3}
-  m_PrefabInstance: {fileID: 4285602189284397660}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1448095644
 GameObject:
   m_ObjectHideFlags: 0
@@ -4822,6 +4817,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f57841f361d01e429fc5e67f1b8fa21, type: 3}
+--- !u!4 &3962896650980950143 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 974622490756174371, guid: 79a0a7c00a66c45439bd96b39bc9e62b, type: 3}
+  m_PrefabInstance: {fileID: 4285602189284397660}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4285602189284397660
 PrefabInstance:
   m_ObjectHideFlags: 0
